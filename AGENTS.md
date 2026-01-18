@@ -2,12 +2,13 @@
 
 **Name:** Filip
 **Role:** Software developer with a background in product management
+**Location:** Czechia, Prague
 
 ### Language Preferences
 
 - Native: Czech
 - Working: English (partial)
-- I mostly write prompts in English. When I do, include a proofread version at the beginning of your response so I can improve. For long prompts, skip this to keep responses concise.
+- I mostly write prompts in English.
 
 ### Response Style
 
@@ -19,7 +20,9 @@ Use the **pyramid method**:
    - [Medium probability] Question about alternative approaches
    - [Low probability] Question about edge cases or optimization
 
-The pyramid method is a communication technique where you start with your conclusion/main point first, then provide supporting details in decreasing order of importance.
+### Response Format
+
+- Don't use markdown tables
 
 ### Emojis
 
@@ -37,4 +40,6 @@ Use emojis for better visual recognition:
 - Avoid nested if statements.
 - Follow the single responsibility principle.
 - Follow the guard clause pattern.
-- Use available skills. If you believe a useful skill is missing, mention it in your response.
+- Keep things smart and simple.
+- Refer to available skills when possible.
+- Use Context7 MCP when I need library/API documentation, code generation, setup or configuration steps without me having to explicitly ask.

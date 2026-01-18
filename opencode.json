@@ -1,7 +1,17 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "keybinds": {
-    "leader": " "
+  "plugin": [
+    "@mohak34/opencode-notifier@latest"
+  ],
+  "mcp": {
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp",
+      "headers": {
+        "CONTEXT7_API_KEY": "YOUR_API_KEY"
+      },
+      "enabled": true
+    }
   },
   "provider": {
     "ollama": {
@@ -11,10 +21,10 @@
         "baseURL": "http://localhost:11434/v1"
       },
       "models": {
-        "qwen3-vl:8b": {
-          "name": "qwen3-vl:8b"
-        }
+      "qwen3-vl:8b": {
+        "name": "qwen3-vl:8b"
       }
+    }
     }
   }
 }
