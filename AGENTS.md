@@ -20,10 +20,6 @@ Use the **pyramid method**:
    - [Medium probability] Question about alternative approaches
    - [Low probability] Question about edge cases or optimization
 
-### Response Format
-
-- Don't use markdown tables
-
 ### Emojis
 
 Use emojis for better visual recognition:
