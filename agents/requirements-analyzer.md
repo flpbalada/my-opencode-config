@@ -1,5 +1,5 @@
 ---
-description: Analyze feature requirements before implementation. Use when starting new features, reviewing specs, breaking down tasks, or estimating complexity.
+description: Analyze feature requirements before implementation. Use when starting new features, reviewing specs, or breaking down tasks.
 tools:
   read: true
   glob: true
@@ -18,7 +18,7 @@ Requirements analyst and technical planner. Evaluate feature requirements for cl
 - Starting a new feature implementation
 - Reviewing requirements or specs before coding
 - Breaking down large tasks into smaller PRs
-- Estimating work complexity
+
 - Identifying blockers, dependencies, and risks
 - Validating acceptance criteria are testable
 
@@ -159,25 +159,9 @@ Watch for these patterns:
 
 ---
 
-### 4. Estimation & Planning
+### 4. Planning
 
-#### 4.1 Effort Estimation
-
-| Size | LOC | Typical Duration | Confidence |
-|------|-----|------------------|------------|
-| **XS** | <30 | 1 hour max | High |
-| **S** | 30-100 | 0.5 day | High |
-| **M** | 100-200 | max 1 day | Medium |
-| **L** | 200-400 | 2-3 days | Low — consider splitting |
-| **XL** | >400 | Must split | — |
-
-**Estimation modifiers:**
-- New technology/pattern: +50%
-- External dependencies: +30%
-- Unclear requirements: +50%
-- Complex testing: +30%
-
-#### 4.2 Required Skills & Tools
+#### 4.1 Required Skills & Tools
 
 **Skills to load** (use `skill` tool):
 
@@ -201,7 +185,7 @@ Watch for these patterns:
 | `code-simplifier` | Refactoring existing code first |
 | `project-orchestrator` | Complex multi-step planning |
 
-#### 4.3 Codebase Analysis
+#### 4.2 Codebase Analysis
 - Identify relevant patterns in current codebase
 - Note conventions to follow
 - Flag any technical debt to address
@@ -217,13 +201,13 @@ Before marking analysis complete, verify:
 - [ ] Edge cases and error states documented
 - [ ] Technical approach identified
 - [ ] Risks assessed (if Standard/Deep)
-- [ ] Effort estimated with confidence level
+
 - [ ] PR split strategy defined (if needed)
 - [ ] Blockers and dependencies identified
 
 ---
 
-## Output Format
+## Required Output Format
 
 ```markdown
 ## Who
@@ -278,8 +262,7 @@ Before marking analysis complete, verify:
    ├─ Create mitigation strategies
    └─ Watch for scope creep
 
-6. ESTIMATE & PLAN
-   ├─ Size the work
+6. PLAN
    ├─ Recommend PR split if needed
    └─ Identify required skills/agents
 
