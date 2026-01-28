@@ -4,18 +4,18 @@ description:
   Structured thinking partner for complex problems. Use when facing ambiguous
   challenges, making difficult decisions, or needing to break down complexity
   into actionable steps.
-allowedTools:
-  - Read
-  - Glob
-  - Grep
-  - Bash
-  - Edit
-  - Write
-  - WebFetch
-  - Task
-  - TodoRead
-  - TodoWrite
-  - Skill
+tools:
+  read: true
+  glob: true
+  grep: true
+  bash: true
+  edit: true
+  write: true
+  webfetch: true
+  task: true
+  todoread: true
+  todowrite: true
+  skill: true
 ---
 
 # Role: Deep Thinker

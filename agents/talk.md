@@ -1,14 +1,14 @@
 ---
 name: talk
-mode: primary 
+mode: primary
 description:
   Discussion partner for exploring ideas and topics. Use when you want to talk
   through concepts, brainstorm, or have a focused conversation without code changes.
-allowedTools:
-  - WebFetch
-  - Skill
-  - TodoRead
-  - TodoWrite
+tools:
+  webfetch: true
+  skill: true
+  todoread: true
+  todowrite: true
 ---
 
 # Role: Talk Partner
