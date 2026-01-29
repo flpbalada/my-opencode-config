@@ -1,6 +1,6 @@
 # OpenCode Configuration
 
-My personal [OpenCode](https://opencode.ai/docs) configuration — an open source AI coding agent.
+My personal [OpenCode](https://opencode.ai/docs) configuration.
 
 Before OpenCode existed, I maintained a personal "second brain". A collection of notes on programming patterns, product management frameworks, and psychology principles. I found it valuable to transform these notes into skills that the AI can execute, making my accumulated knowledge actionable during coding sessions.
 
@@ -50,7 +50,6 @@ Skills are **executable knowledge notes** — my personal "second brain" convert
 | Decision Making | [hypothesis trees](./skills/hypothesis-tree/SKILL.md), [five whys](./skills/five-whys/SKILL.md), [graph thinking](./skills/graph-thinking/SKILL.md), [game theory (tit-for-tat)](./skills/game-theory-tit-for-tat/SKILL.md) |
 | Agile | [Kanban](./skills/kanban/SKILL.md), [theme-epic-story hierarchy](./skills/theme-epic-story/SKILL.md), [user stories](./skills/user-story-fundamentals/SKILL.md) |
 | Product Management | [what not to do as PM](./skills/what-not-to-do-as-product-manager/SKILL.md) |
-| Git | [mycommit](./skills/mycommit/SKILL.md) |
 
 ## MCP Servers
 
