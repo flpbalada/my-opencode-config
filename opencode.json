@@ -4,6 +4,22 @@
     "@mohak34/opencode-notifier@latest",
     "@franlol/opencode-md-table-formatter@0.0.3"
   ],
+  "permission": {
+    "bash": "ask",
+    "edit": "ask",
+    "write": "ask",
+    "read": "allow",
+    "grep": "allow",
+    "glob": "allow",
+    "list": "allow",
+    "lsp": "allow",
+    "skill": "allow",
+    "todowrite": "allow",
+    "todoread": "allow",
+    "webfetch":"allow",
+    "websearch": "allow",
+    "question": "allow",
+  },
   "mcp": {
     "context7": {
       "type": "remote",
