@@ -12,14 +12,6 @@
       "url": "https://mcp.context7.com/mcp",
       "enabled": true
     },
-    "exa": {
-      "type": "remote",
-      "url": "https://mcp.exa.ai/mcp",
-      "enabled": true,
-      "headers": {
-        "Authorization": "Bearer ${EXA_API_KEY}"
-      }
-    },
     "figma-mcp-desktop": {
       "type": "remote",
       "url": "http://127.0.0.1:3845/mcp"
@@ -29,16 +21,6 @@
       "command": ["npx", "-y", "@playwright/mcp@latest"],
       "enabled": true
     },
-    "maestro": {
-      "type": "local",
-      "command": ["maestro", "mcp"],
-      "enabled": true
-    },
-    "jira": {
-      "type": "remote",
-      "url": "https://mcp.atlassian.com/v1/mcp",
-      "enabled": true
-    }
   },
   "permission": {
     "*": "allow",
