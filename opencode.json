@@ -4,7 +4,7 @@
     "@franlol/opencode-md-table-formatter@0.0.3",
     "@mohak34/opencode-notifier@latest"
   ],
-  "model": "openai/gpt-5.6-fast",
+  "model": "openai/gpt-5.6-sol-fast",
   "default_agent": "build",
   "mcp": {
     "context7": {
