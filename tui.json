@@ -3,5 +3,6 @@
   "theme": "github",
   "keybinds": {
     "leader": "ctrl+o",
+    "prompt_skills": "$",
   }
 }
