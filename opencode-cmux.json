@@ -1,0 +1,9 @@
+{
+  "splits": true,
+  "notifications": {
+    "done": false,
+    "permission": true,
+    "question": true,
+    "error": true
+  }
+}
